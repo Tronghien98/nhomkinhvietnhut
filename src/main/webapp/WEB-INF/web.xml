@@ -3,6 +3,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	version="4.0">
 	
+	
 	<servlet>
 		<servlet-name>ConnectorServlet</servlet-name>
 		<servlet-class>com.ckfinder.connector.ConnectorServlet</servlet-class>
@@ -26,7 +27,6 @@
 			/resources/admin/ckfinder/core/connector/java/connector.java
 		</url-pattern>
 	</servlet-mapping>
-	
 	<filter>
 		<filter-name>loggingFilter</filter-name>
 		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>

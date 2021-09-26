@@ -3,8 +3,7 @@
 <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-secondary shadow">
     <div class="container d-flex justify-content-between align-items-center">
         <a class="navbar-brand h1" href="${urlIndex}">
-            <i class='bx bx-buildings bx-sm text-dark'></i>
-            <span class="text-dark h4">Nhôm Kính</span> <span class="text-primary h4">Việt Nhựt</span>
+            <img width="230px" height="37px" src="${contextPath}/assets/logo/logo.png" />
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

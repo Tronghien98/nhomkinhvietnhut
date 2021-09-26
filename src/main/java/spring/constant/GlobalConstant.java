@@ -2,7 +2,7 @@ package spring.constant;
 
 public class GlobalConstant {
 	
-	public static final String DIR_UPLOAD = "upload";
+	public static final String DIR_UPLOAD = "upload/upload";
 
 	public static final String DIR_UPLOAD_PICTURE_PRODUCT = "product/image";
 

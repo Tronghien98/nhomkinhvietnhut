@@ -65,10 +65,10 @@
 		  </div>
 
 <script type="text/javascript">
-	document.getElementById("news_management").className = "current";
-	var ckeditor = CKEDITOR.replace('detail');
-	CKFinder.setupCKEditor(ckeditor, '${pageContext.request.contextPath}/resources/admin/ckfinder/');
+	var editor = CKEDITOR.replace( 'detail' );
+	CKFinder.setupCKEditor( editor, '${pageContext.request.contextPath}/resources/admin/ckfinder/' );
 </script>	
 <script type="text/javascript">
 	$('.selectpicker').selectpicker();
+	document.getElementById("news_management").className = "current";
 </script>
